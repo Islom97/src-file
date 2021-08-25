@@ -1,0 +1,23 @@
+/*----------------
+   BASIC PAGE
+----------------*/
+@import './basic';
+
+/*----------------
+   MIXINS...
+----------------*/
+@import './mixins';
+
+/*----------------------
+   IMPORT HOME PAGE
+------------------------*/
+
+@import "./page/home/header";
+@import "./page/home/menu-burger";
+@import "./page/home/modal";
+
+@import "./page/home/footer";
+
+/*----------------------
+   IMPORT ABOUT PAGE
+------------------------*/
