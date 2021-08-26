@@ -1,0 +1,89 @@
+footer{
+   margin-top: 100px;
+   height: 221px;
+   background-color: #F3F3F3;
+   border: 1px solid #EBEBEB;
+   .addres{
+      text-align: right;
+      margin: -30px 80px 0px 0px;
+   }
+   .footer__navbar{
+      padding: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .footer__logo{
+         transition: opacity .3s ease-in;
+         &:hover{
+            opacity: 0.8;
+         }
+         &:active{
+            opacity: 0.6;
+         }
+      }
+      
+      .menu__link{
+         font-style: normal;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 18px;
+         color: #333333;
+         transition: color 0.3s ease;
+         &:hover{
+            color: #FFBD54;
+         }
+         &:active{
+            opacity: .6;
+            color: #333333;
+         }
+      }
+      
+      .day{
+         margin-top: -15px;
+         margin-left: 20px;
+         position: relative;
+         &::before{
+            background-repeat: no-repeat;
+            left: -20px;
+            top: 3px;
+            
+            background-image: url(../../../img/head-footer/day.svg);
+            width: 20px;
+            height: 20px;
+            position: absolute;
+         }
+      }
+      .home{
+         margin-left: 20px;
+         width: 155px;
+         margin-top: -17px;
+         position: relative;
+         &::before{
+            background-repeat: no-repeat;
+            top: 5px;
+            left: -20px;
+            background-image: url(../../../img/head-footer/house.svg);
+            width: 20px;
+            height: 20px;
+            position: absolute;
+         }
+      }
+      
+      .tel{
+         margin-left: 20px;
+         
+         position: relative;
+         &::before{
+            background-repeat: no-repeat;
+            left: -20px;
+            top: 3px;
+            
+            background-image: url(../../../img/head-footer/phone.svg);
+            width: 20px;
+            height: 20px;
+            position: absolute;
+         }
+      }
+   }
+}
