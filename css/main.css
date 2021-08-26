@@ -14,10 +14,9 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Futura PT';
   background-color: #fff;
   font-size: 16px;
-  color: #333;
 }
 
 ul {
@@ -40,6 +39,205 @@ a {
 /*----------------------
    IMPORT HOME PAGE
 ------------------------*/
+.header .header__top {
+  padding: 15px;
+  background-color: #F9F8F8;
+}
+
+.header .header__top .top__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__top .top__navbar .navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 75px;
+}
+
+.header .header__top .top__navbar .navbar__menu .menu__item {
+  margin-right: 22px;
+}
+
+.header .header__top .top__navbar .navbar__menu .menu__item .menu__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.header .header__top .top__navbar .navbar__menu .menu__item .menu__link:hover {
+  color: #FFBD54;
+}
+
+.header .header__top .top__navbar .navbar__menu .menu__item .menu__link:active {
+  opacity: .6;
+  color: #333333;
+}
+
+.header .header__top .top__navbar .navbar__menu .br {
+  position: relative;
+}
+
+.header .header__top .top__navbar .navbar__menu .br::before {
+  content: '';
+  background-image: url(../../../img/head-footer/nuxta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.header .header__top .top__navbar .navbar__menu:nth-child(1) {
+  position: relative;
+}
+
+.header .header__top .top__navbar .navbar__menu:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(../../../img/head-footer/house.svg);
+  left: 50px;
+}
+
+.header .header__top .top__navbar .navbar__menu:nth-child(2) {
+  position: relative;
+}
+
+.header .header__top .top__navbar .navbar__menu:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(../../../img/head-footer/phone.svg);
+  left: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .header__top .top__navbar .navbar__menu:nth-child(3) {
+  position: relative;
+}
+
+.header .header__top .top__navbar .navbar__menu:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(../../../img/head-footer/day.svg);
+  left: 50px;
+}
+
+.header .header__bottom {
+  height: 61px;
+  background-color: #fff;
+  border: 1px solid #F3F3F3;
+}
+
+.header .header__bottom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header__bottom .container .bottom__logo {
+  margin-top: -18px;
+}
+
+.header .header__bottom .container .bottom__navbar {
+  margin-top: -15px;
+}
+
+.header .header__bottom .container .bottom__navbar .navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__bottom .container .bottom__navbar .navbar__menu .menu__item {
+  padding: 0 27px;
+}
+
+.header .header__bottom .container .bottom__navbar .navbar__menu .menu__item .menu__link {
+  color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+}
+
+.header .header__bottom .container .bottom__navbar .navbar__menu .menu__item .menu__link:hover {
+  border-bottom: 3px solid yellow;
+}
+
+.header .header__bottom .container .bottom__navbar .navbar__menu .menu__item .menu__link:active {
+  opacity: .6;
+}
+
+.header .header__bottom .container .menu__btn {
+  margin-top: -15px;
+  color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: 0.10s ease all;
+  transition: 0.10s ease all;
+  position: relative;
+}
+
+.header .header__bottom .container .menu__btn:hover {
+  border-bottom: 3px solid yellow;
+}
+
+.header .header__bottom .container .menu__btn::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-image: url(../../../img/head-footer/pet.svg);
+}
+
 /*----------------------
    IMPORT ABOUT PAGE
 ------------------------*/

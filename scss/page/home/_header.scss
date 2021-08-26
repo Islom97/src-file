@@ -1,0 +1,145 @@
+.header{
+   .header__top{
+      padding: 15px;
+      
+      background-color: #F9F8F8;
+      .top__navbar{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         .navbar__menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 75px;
+            .menu__item{
+               margin-right: 22px;
+               .menu__link{
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 13px;
+                  line-height: 18px;
+                  color: #333333;
+                  transition: color 0.3s ease;
+                  &:hover{
+                     color: #FFBD54;
+                  }
+                  &:active{
+                     opacity: .6;
+                     color: #333333;
+                  }
+               }
+            }
+            .br{
+               position: relative;
+               &::before{
+                  content: '';
+                  background-image: url(../../../img/head-footer/nuxta.svg);
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  position: absolute;
+                  width: 10px;
+                  height: 10px;
+                  left: -15px;
+                  top: 50%;
+                  transform: translateY(-50%);
+               }
+            }
+            &:nth-child(1){
+               position: relative;
+               &::before{
+                  content: '';
+                  position: absolute;
+                  width: 13px;
+                  height: 13px;
+                  background-image: url(../../../img/head-footer/house.svg);
+                  left: 50px;
+               }
+            }
+            &:nth-child(2){
+               position: relative;
+               &::before{
+                  content: '';
+                  position: absolute;
+                  width: 13px;
+                  height: 13px;
+                  background-image: url(../../../img/head-footer/phone.svg);
+                  left: 50px;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+               }
+            }
+            &:nth-child(3){
+               position: relative;
+               &::before{
+                  content: '';
+                  position: absolute;
+                  width: 13px;
+                  height: 13px;
+                  background-image: url(../../../img/head-footer/day.svg);
+                  left: 50px;
+               }
+            }
+         }
+      }
+   }
+   .header__bottom{
+      height: 61px;
+      background-color: #fff;
+      border: 1px solid #F3F3F3;
+      .container{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+         .bottom__logo{
+            margin-top: -18px;
+         }
+         .bottom__navbar{
+            margin-top: -15px;
+            .navbar__menu{
+               display: flex;
+               align-items: center;
+               .menu__item{
+                  padding: 0 27px;
+                  .menu__link{
+                     color: #333333;
+                     font-weight: 500;
+                     font-size: 16px;
+                     border-bottom: 3px solid transparent;
+                     transition: 0.4s ease all;
+                     &:hover{
+                        border-bottom: 3px solid yellow;
+                     }
+                     &:active{
+                     opacity: .6;
+                  }
+                  }
+               }
+            }
+         }
+         .menu__btn{
+            margin-top: -15px;
+            color: #333333;
+            font-weight: 500;
+            font-size: 16px;
+            border-bottom: 3px solid transparent;
+            transition: 0.10s ease all;
+            position: relative;
+            &:hover{
+               border-bottom: 3px solid yellow;
+            }
+            &::before{
+               content: "";
+               position: absolute;
+               width: 25px;
+               height: 25px;
+               left: -30px;
+               top: 50%;
+               transform: translateY(-50%);
+               background-image: url(../../../img/head-footer/pet.svg);
+            }
+         }
+      }
+   }
+}
