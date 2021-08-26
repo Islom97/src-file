@@ -44,10 +44,10 @@ footer{
          margin-left: 20px;
          position: relative;
          &::before{
-            background-repeat: no-repeat;
+            content: '';
             left: -20px;
             top: 3px;
-            
+            background-repeat: no-repeat;
             background-image: url(../../../img/head-footer/day.svg);
             width: 20px;
             height: 20px;
@@ -55,11 +55,12 @@ footer{
          }
       }
       .home{
+         position: relative;
          margin-left: 20px;
          width: 155px;
          margin-top: -17px;
-         position: relative;
          &::before{
+            content: '';
             background-repeat: no-repeat;
             top: 5px;
             left: -20px;
@@ -75,10 +76,10 @@ footer{
          
          position: relative;
          &::before{
+            content: '';
             background-repeat: no-repeat;
             left: -20px;
             top: 3px;
-            
             background-image: url(../../../img/head-footer/phone.svg);
             width: 20px;
             height: 20px;

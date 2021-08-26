@@ -302,9 +302,10 @@ footer .footer__navbar .day {
 }
 
 footer .footer__navbar .day::before {
-  background-repeat: no-repeat;
+  content: '';
   left: -20px;
   top: 3px;
+  background-repeat: no-repeat;
   background-image: url(../../../img/head-footer/day.svg);
   width: 20px;
   height: 20px;
@@ -312,13 +313,14 @@ footer .footer__navbar .day::before {
 }
 
 footer .footer__navbar .home {
+  position: relative;
   margin-left: 20px;
   width: 155px;
   margin-top: -17px;
-  position: relative;
 }
 
 footer .footer__navbar .home::before {
+  content: '';
   background-repeat: no-repeat;
   top: 5px;
   left: -20px;
@@ -334,6 +336,7 @@ footer .footer__navbar .tel {
 }
 
 footer .footer__navbar .tel::before {
+  content: '';
   background-repeat: no-repeat;
   left: -20px;
   top: 3px;
