@@ -1,5 +1,4 @@
-.header{
-   .header__top{
+header{.header__top{
       padding: 15px;
       
       background-color: #F9F8F8;
@@ -74,10 +73,12 @@
                &::before{
                   content: '';
                   position: absolute;
-                  width: 13px;
-                  height: 13px;
+                  width: 20px;
+                  height: 20px;
                   background-image: url(../../../img/head-footer/day.svg);
                   left: 50px;
+                  bottom: -2px;
+                  background-repeat: no-repeat;
                }
             }
          }
@@ -133,9 +134,10 @@
                content: "";
                position: absolute;
                width: 25px;
-               height: 25px;
+               height: 30px;
                left: -30px;
-               top: 50%;
+               top: 10px;
+               background-repeat: no-repeat;
                transform: translateY(-50%);
                background-image: url(../../../img/head-footer/pet.svg);
             }
