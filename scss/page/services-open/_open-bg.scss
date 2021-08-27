@@ -1,0 +1,50 @@
+.header__bg img{
+   object-fit: cover;
+}
+
+.header__bg{
+   
+   .header__map--links{
+      margin: 33px 0;
+      
+      .links{
+         position: relative;
+         margin-right: 18px;
+         color: #949494;
+
+         &:nth-child(3){
+            color: #333;
+            &::before{
+               content: '';
+               background-image: url(../../../img/head-footer/nuxta.svg);
+               background-size: cover;
+               background-repeat: no-repeat;
+               display: inline-block;
+               position: absolute;
+               top: 50%;
+               left: -9px;
+               transform: translateY(-50%);
+               width: 3px;
+               height: 3px;
+            }
+         }
+         &:nth-child(2){
+            &::before{
+               content: '';
+               background-image: url(../../../img/head-footer/nuxta.svg);
+               background-size: cover;
+               background-repeat: no-repeat;
+               display: inline-block;
+               position: absolute;
+               top: 50%;
+               left: -9px;
+               transform: translateY(-50%);
+               width: 3px;
+               height: 3px;
+            }
+         }
+
+
+      }
+   }
+}

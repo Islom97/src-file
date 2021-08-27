@@ -347,5 +347,53 @@ footer .footer__navbar .tel::before {
 }
 
 /*----------------------
-   IMPORT ABOUT PAGE
+   IMPORT SERVICES OPEN PAGE
 ------------------------*/
+.header__bg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header__bg .header__map--links {
+  margin: 33px 0;
+}
+
+.header__bg .header__map--links .links {
+  position: relative;
+  margin-right: 18px;
+  color: #949494;
+}
+
+.header__bg .header__map--links .links:nth-child(3) {
+  color: #333;
+}
+
+.header__bg .header__map--links .links:nth-child(3)::before {
+  content: '';
+  background-image: url(../../../img/head-footer/nuxta.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 3px;
+  height: 3px;
+}
+
+.header__bg .header__map--links .links:nth-child(2)::before {
+  content: '';
+  background-image: url(../../../img/head-footer/nuxta.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 3px;
+  height: 3px;
+}
