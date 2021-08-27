@@ -271,12 +271,15 @@ header .header__bottom .container .menu__btn::before {
 }
 
 .modal-first .content {
+  border-radius: 10px;
   z-index: 2000;
   position: absolute;
   width: 850px;
-  height: 648px;
-  top: 7%;
-  left: 23%;
+  height: 548px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background: #FFBD54;
   opacity: 1;
   background-image: url("../../../img/modal/kisspng-pet-sitting-dog-cat-puppy-chien-5b4a3b08951554 1.png");
@@ -428,9 +431,12 @@ header .header__bottom .container .menu__btn::before {
   z-index: 2000;
   position: absolute;
   width: 850px;
-  height: 648px;
-  top: 7%;
-  left: 23%;
+  height: 600px;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background: #FFBD54;
   opacity: 1;
   background-image: url("../../../img/modal/kisspng-jack-russell-terrier-parson-russell-terrier-miniat-pets-5abe32494467e5 2.png");
