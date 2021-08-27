@@ -70,8 +70,8 @@ body {
 
 .services-bg {
     position: absolute;
-    margin-left: 60px;
-    margin-top: -18px;
+    top: 0;
+    right: 0;
 }
 
 .services-wrapper {
@@ -155,6 +155,7 @@ body {
 }
 
 .header-wrapper {
+    position: relative;
     display: flex;
 }
 
@@ -184,8 +185,8 @@ body {
 .parrot-img {
     position: absolute;
     z-index: 3;
-    margin-top: -450px;
-    margin-left: 910px;
+    right: 0;
+    top: 0;
 }
 
 .services-wrapper {
