@@ -20,6 +20,7 @@ body {
     background: #FFFFFF;
     border-radius: 5px 5px 0px 0px;
     margin-top: 34px;
+    position: relative;
 }
 
 .services-card:hover {
@@ -58,7 +59,6 @@ body {
     padding: 15px 30px 14px 29px;
     margin-left: 53px;
     border: 2px solid #000000;
-    margin-top: 21px;
 }
 
 .services-img {
@@ -130,12 +130,14 @@ body {
     background-color: #FFBD54;
     border: 2px solid #FFBD54;
     margin-top: 26px;
+    position: absolute;
 }
 
 .fyr {
     background-color: #78C0DE;
     border: 2px solid #78C0DE;
     margin-top: 46px;
+    position: absolute;
 }
 
 .fyr:hover {
