@@ -1117,3 +1117,73 @@ footer .footer__navbar .tel::before {
   top: 20px;
   left: 30px;
 }
+
+.main-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  height: 580px;
+}
+
+.main-about .about-header {
+  position: relative;
+}
+
+.main-about .about-header .header__title {
+  margin-top: 117px;
+  font-weight: bold;
+  font-size: 70px;
+  color: #333333;
+}
+
+.main-about .about-header .header__text {
+  width: 411px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #949494;
+}
+
+.main-about .about-header .group-paws {
+  position: absolute;
+  width: 669px;
+  top: 250px;
+  left: -120px;
+}
+
+.main-about .about-header .search-paws {
+  position: absolute;
+  top: 350px;
+  left: 320px;
+}
+
+.main-about .about-header__img .header__img {
+  width: 448px;
+  height: 545px;
+  margin-left: 133px;
+}
+
+.clinic-building {
+  height: 580px;
+  background: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clinic-building .building-about .building-text {
+  width: 557px;
+  height: 182px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #949494;
+}
+/*# sourceMappingURL=main.css.map */
