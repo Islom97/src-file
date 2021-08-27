@@ -28,6 +28,12 @@ a{
    text-decoration: none;
 }
 
+button{
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+
 .container{
    max-width: 1300px;
    margin: 0 auto;
