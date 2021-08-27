@@ -395,27 +395,62 @@ main .servis .servis__menu .servis__item .servis__tite {
 }
 
 main .servis .servis__menu .no1::before {
-  left: 60px;
+  left: 90px;
 }
 
 main .servis .servis__menu .no2::before {
+  left: 75px;
   background-image: url(/img/intro-img/gitl-dog.svg);
 }
 
 main .servis .servis__menu .no3::before {
+  left: 70px;
   background-image: url(/img/intro-img/outline.svg);
 }
 
 main .servis .servis__menu .no4::before {
+  left: 70px;
   background-image: url(/img/intro-img/docg.svg);
 }
 
 main .servis .servis__menu .no5::before {
+  left: 70px;
   background-image: url(/img/intro-img/microscop.svg);
 }
 
 main .servis .servis__menu .no6::before {
+  left: 70px;
   background-image: url(/img/intro-img/dermatolog.svg);
+}
+
+main .servis .servis__menu .no7::before {
+  left: 70px;
+  background-image: url(/img/intro-img/sklet.svg);
+}
+
+main .servis .servis__menu .no8::before {
+  left: 90px;
+  background-image: url(/img/intro-img/prick.svg);
+}
+
+main .servis .servis__menu .no9::before {
+  left: 60px;
+  background-image: url(/img/intro-img/dogsday.svg);
+}
+
+main .servis .servis__menu .no10::before {
+  left: 70px;
+  background-image: url(/img/intro-img/prick-health.svg);
+}
+
+main .servis .servis__menu .no11::before {
+  left: 70px;
+  background-image: url(/img/intro-img/tooth.svg);
+}
+
+main .servis .servis__menu .no12::before {
+  left: 70px;
+  background-image: url(/img/intro-img/+bag.svg);
 }
 
 main .inspects {

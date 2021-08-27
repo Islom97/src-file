@@ -127,35 +127,75 @@ box-shadow: -2px -6px 16px 7px rgba(0,0,0,0.2);
             }
             .no1{
                 &::before{
-                    left: 60px;
+                    left: 90px;
                 }
             }
             .no2{
                 &::before{
+                    left: 75px;
                     background-image: url(/img/intro-img/gitl-dog.svg);
                 }
             }
             .no3{
                 &::before{
+                    left: 70px;
                     background-image: url(/img/intro-img/outline.svg);
                 }
             }
             .no4{
                 &::before{
+                    left: 70px;
                     background-image: url(/img/intro-img/docg.svg);
                 }
             }
             .no5{
                 &::before{
+                    left: 70px;
                     background-image: url(/img/intro-img/microscop.svg);
                 }
             }
             .no6{
                 &::before{
+                    left: 70px;
                     background-image: url(/img/intro-img/dermatolog.svg);
                 }
             }
-            
+                 .no7{
+                &::before{
+                    left: 70px;
+                    background-image: url(/img/intro-img/sklet.svg);
+                }
+            }
+                 .no8{
+                &::before{
+                    left: 90px;
+                    background-image: url(/img/intro-img/prick.svg);
+                }
+            }
+                 .no9{
+                &::before{
+                    left: 60px;
+                    background-image: url(/img/intro-img/dogsday.svg);
+                }
+            }
+                 .no10{
+                &::before{
+                    left: 70px;
+                    background-image: url(/img/intro-img/prick-health.svg);
+                }
+            }
+                 .no11{
+                &::before{
+                    left: 70px;
+                    background-image: url(/img/intro-img/tooth.svg);
+                }
+            }
+                     .no12{
+                &::before{
+                    left: 70px;
+                    background-image: url(/img/intro-img/+bag.svg);
+                }
+            }
         }
     }
     .inspects{
