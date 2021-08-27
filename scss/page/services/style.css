@@ -1,0 +1,191 @@
+* {
+    transition: all 0.5s;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Futura PT';
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.services-card {
+    height: 440px;
+    width: 305px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 34px;
+}
+
+.services-card:hover {
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
+}
+
+.services-title {
+    margin-left: 53px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    color: #333333;
+    margin-top: 21px;
+}
+
+.services-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-left: 53px;
+    margin-top: 14px;
+}
+
+.services-btn {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 3px;
+    padding: 15px 30px 14px 29px;
+    margin-left: 53px;
+    border: 2px solid #000000;
+    margin-top: 21px;
+}
+
+.services-img {
+    width: 54px;
+    height: 77.45px;
+    margin-left: 53px;
+    margin-top: 58px;
+}
+
+.services-bg {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -18px;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.doctor-female {
+    width: 61.4px;
+}
+
+.hirurg-dog {
+    width: 72px;
+}
+
+.dermo-dog {
+    width: 75.94px;
+}
+
+.lobaratory {
+    width: 78px;
+}
+
+.plus-dog {
+    width: 75.94px;
+}
+
+.uzi-dog {
+    width: 77px;
+}
+
+.chip-dog {
+    width: 40px;
+}
+
+.portal-dog {
+    width: 86.67px;
+}
+
+.vak-dog {
+    width: 68px;
+}
+
+.stom-dog {
+    width: 78px;
+    height: 78px;
+}
+
+.dom-dog {
+    width: 77px;
+    height: 77px;
+}
+
+.fyp {
+    background-color: #FFBD54;
+    border: 2px solid #FFBD54;
+    margin-top: 26px;
+}
+
+.fyr {
+    background-color: #78C0DE;
+    border: 2px solid #78C0DE;
+    margin-top: 46px;
+}
+
+.fyr:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.fyp:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+.serviceshead-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+    margin-top: 118px;
+    margin-left: 177px;
+}
+
+.serviceshead-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 179px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+    margin-bottom: 140px;
+    margin-top: 30px;
+}
+
+.parrot-img {
+    position: absolute;
+    z-index: 3;
+    margin-top: -450px;
+    margin-left: 910px;
+}
+
+.services-wrapper {
+    margin-left: 35px;
+}
