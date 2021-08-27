@@ -1,1 +1,216 @@
-//?  Modal  Window
+.modal-first {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(136, 133, 133, 0.5);
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+    .content{
+        z-index: 2000;
+        position: absolute;
+        width: 850px;
+        height: 648px;
+        top: 7%;
+        left: 23%;
+        background: #FFBD54;
+        opacity: 1;
+        background-image: url('../../../img/modal/kisspng-pet-sitting-dog-cat-puppy-chien-5b4a3b08951554\ 1.png');
+        background-repeat: no-repeat;
+        background-position: 10%  bottom;
+        .content__btn-back {
+            margin: 0;
+            margin-left: 20px;
+            width: 20px;
+            font-size: 45px;
+        }
+        .content__main {
+            width: 780px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            .content__main-autorization {
+                display: flex;
+                flex-direction: column;
+                .autorization__text {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #333333;
+                    margin-top: 15px;
+                    margin-bottom: 21px;
+                }
+                .autorization__link-google{
+                    padding: 15px 36px 15px 68px;
+                    background-color: #fff;
+                    position: relative;
+                    margin-bottom: 21px;
+                    &::before{
+                        content: url(../../../img/modal/google.svg);
+                        position: absolute;
+                        top: 16px;
+                        left: 30px;
+                    }
+                }
+                .autorization__link-facebook{
+                    padding: 15px 36px 15px 68px;
+                    background-color: #fff;
+                    position: relative;
+                    margin-bottom: 21px;
+                    &::before{
+                        content: url(../../../img/modal/facebook.svg);
+                        position: absolute;
+                        top: 16px;
+                        left: 30px;
+                    }
+                }
+            }
+            .content__main-question{
+                margin-right: -40px;
+                display: flex;
+                flex-direction: column;
+                .question__title{
+                    font-weight: bold;
+                    font-size: 50px;
+                    line-height: 54px;
+                    color: #333333;
+                    margin-bottom: 25px;
+                }
+                .question__input{
+                    width: 335px;
+                    height: 50px;
+                    margin-bottom: 21px;
+                    padding-left: 17px;
+                    border: none;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #949494;
+                    outline: none;
+                    
+                }
+                .question__text{
+                    width: 335px;
+                    height: 165px;
+                    padding-left: 17px;
+                    padding-top: 10px;
+                    margin-bottom: 27px;
+                    border: none;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #949494; 
+                    resize: none;
+                    outline: none;
+                }
+                .question__link{
+                    padding: 14px 67px 15px 55px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #fff;
+                    background: #000000;
+                    display: inline-block;
+                    width: 193px;
+                    &:active{
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// --------DISPLAY_BLOCKER-----
+
+
+
+.modal-2{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(136, 133, 133, 0.5);
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+    .content-two{
+        z-index: 2000;
+        position: absolute;
+        width: 850px;
+        height: 648px;
+        top: 7%;
+        left: 23%;
+        background: #FFBD54;
+        opacity: 1;
+        background-image: url('../../../img/modal/kisspng-jack-russell-terrier-parson-russell-terrier-miniat-pets-5abe32494467e5\ 2.png');
+        background-repeat: no-repeat;
+        background-position: 0  bottom;
+        .content-two__btn-back {
+            margin: 0;
+            margin-left: 20px;
+            width: 20px;
+            font-size: 45px;
+        }
+        .content-two__main-question{
+                margin-right: -40px;
+                display: flex;
+                flex-direction: column;
+                margin-left: 55%;
+                .question-two__title{
+                    font-weight: bold;
+                    font-size: 50px;
+                    line-height: 54px;
+                    color: #333333;
+                    margin-bottom: 25px;
+                }
+                .question-two__input{
+                    width: 335px;
+                    height: 50px;
+                    margin-bottom: 21px;
+                    padding-left: 17px;
+                    border: none;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #949494;
+                    outline: none;
+                    
+                }
+                .question-two__text{
+                    width: 335px;
+                    height: 165px;
+                    padding-left: 17px;
+                    padding-top: 10px;
+                    margin-bottom: 27px;
+                    border: none;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #949494; 
+                    resize: none;
+                    outline: none;
+                }
+                .question-two__link{
+                    padding: 14px 47px 15px 35px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #fff;
+                    background: #000000;
+                    display: inline-block;
+                    width: 193px;
+                    &:active{
+                        opacity: 0.7;
+                    }
+                }
+            }
+    }
+}
+
+.db{
+    display: block;
+}

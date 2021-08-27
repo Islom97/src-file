@@ -43,7 +43,7 @@
                   <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
                </ul>
             </nav>
-            <button class="menu__btn" href="#">Задать вопрос</button>
+            <button id="btn-modal" class="menu__btn" href="#">Задать вопрос</button>
          </div>
       </div>
    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<main starter>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
@@ -200,6 +200,42 @@
             </div>
             
          </footer>
+         <div id="modal-first" class="modal-first">
+            <div class="content">
+               <button id="btn-back" class="content__btn-back">&times</button>
+               <div class="content__main">
+                  <div class="content__main-autorization autorization">
+                     <p class="autorization__text">Авторизация:</p>
+                        <a href="#" class="autorization__link-google">Войти через Google</a>
+                        <a href="#" class="autorization__link-facebook">Войти через Google</a>
+                  </div>
+                  <form id="form" class="content__main-question question">
+                     <h1 class="question__title">Задать вопрос</h1>
+                     <input class="question__input" id="input" type="text" placeholder="Ваше имя..." autocomplete="off" required>
+                     <textarea class="question__text" placeholder="Опишите Ваш вопрос..." required></textarea>
+                     <button id="first-modal-btn" class="question__link">Отправить</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <!-- ------modal-twoo------- -->
+         <div id="modal-second" class="modal-2">
+            <div class="content-two">
+               <button id="btn-back-two" class="content-two__btn-back">&times</button>
+               <div class="content-two__main">
+                  
+                  <form id="form" class="content-two__main-question question" >
+                     <h1 class="question-two__title">Остались вопросы?</h1>
+                     <input class="question-two__input" id="input" type="text" placeholder="Ваше имя..." autocomplete="off" required>
+                     <input class="question-two__input" id="input" type="email" placeholder="Email для обратной связи" autocomplete="off" required>
+                     <textarea class="question-two__text" id="" cols="30" rows="10"placeholder="Опишите Ваш вопрос..." required></textarea>
+                     <button
+                     id="first-modal-btn"
+                     class="question-two__link">Задать вопрос</button>
+                  </form>
+               </div>
+            </div>
+         </div>
          <script src="./js/index.js"></script>
       </body>
       </html>
