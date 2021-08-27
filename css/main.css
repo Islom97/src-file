@@ -385,6 +385,11 @@ main .servis .servis__menu .servis__item::before {
   background-image: url(/img/intro-img/doctor.svg);
 }
 
+main .servis .servis__menu .servis__item:hover {
+  -webkit-box-shadow: -2px -6px 16px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: -2px -6px 16px 7px rgba(0, 0, 0, 0.2);
+}
+
 main .servis .servis__menu .servis__item .servis__tite {
   width: 150px;
 }
@@ -419,16 +424,18 @@ main .inspects {
 }
 
 main .inspects .inspect {
+  border: 2px solid black;
   border-radius: 5px;
   height: 330px;
   border: 1px solid #F3F3F3;
-  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 main .inspects .inspect img {
+  -o-object-fit: cover;
+     object-fit: cover;
   padding: 40px 20px;
 }
 
@@ -473,6 +480,24 @@ main .inspects .inspect .text__wrapper .inspect__btn::before {
 main .inspects .inspect .text__wrapper .inspect__btn .no2 {
   background-color: #333333;
   width: 200px;
+}
+
+main .slick-arrow {
+  background: transparent;
+  background-image: url(/img/intro-img/Arroow.svg);
+  border: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+main .slick-next {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 main .course {
