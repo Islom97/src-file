@@ -2,7 +2,7 @@
    BASIC PAGE
 ----------------*/
 /*----------------
-   BASIC PAGE
+BASIC PAGE
 ----------------*/
 *,
 *::before,
@@ -17,6 +17,9 @@ body {
   font-family: 'Futura PT', sans-serif;
   background-color: #fff;
   font-size: 16px;
+  background-image: url(../img/img-blog-page-6/bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 ul {
