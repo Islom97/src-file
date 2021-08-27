@@ -1,0 +1,169 @@
+.blog-section{
+    background-image: url(../../../img/img-blog-page-6/bg.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        .header-content__top{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 95px;    
+            .top-content{
+                
+                .top-content__header{
+                    font-weight: bold;
+                    font-size: 70px;
+                    line-height: 64px;
+                    margin-top: 118px;
+                    margin-bottom: 21px;
+                }
+                .top-content__desc{
+                    width: 447px;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+            .top-content__img {
+                margin-top: 29px;
+                width:415;
+                height:317;
+            }
+        }
+        .header-content__bottom{
+            display: flex;
+            margin-bottom: 72px;
+            .bottom__img {
+                border-radius: 5px 0px 0px 5px;
+                width: 558px;
+                height: 525px;
+                margin-right: 81px;
+            }
+            .bottom-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .bottom-content__subtitle{
+                    display: flex;
+                    .heshs{
+                        display: flex;
+                    }
+                    .subtitle__date{
+                        padding-left: 47%;
+                        color: #949494;
+                    }
+                }
+                .bottom-content__header {
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 38px;
+                    color: #333333;
+                    margin-bottom: 20px;
+                }
+                .bottom-content__desc{
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #949494;
+                }
+                .bottom-content__link {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #333333;
+                    &::before{
+                        content: '';
+                        background-image: url(../../../img/img-blog-page-6/pet-paw.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        width: 25px;
+                        height: 21px;
+                        display: inline-block;
+                        margin-bottom: -4px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .main-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 116px;
+        .main-content__block {
+            width: 305px;
+            height: 435px;
+            border: .2px solid #cfcfcf;
+            border-radius: 5px;
+            &:nth-child(1){
+                margin-bottom: 60px;
+            }
+            &:nth-child(2){
+                margin-bottom: 60px;
+            }
+            &:nth-child(3){
+                margin-bottom: 60px;
+            }
+            &:nth-child(4){
+                margin-bottom: 60px;
+            }
+            .block-img{
+                border-radius: 5px;
+                margin-bottom: 39px;
+                width: 305px;
+                height: 180px;
+            }
+            .block-header {
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 25px;
+                padding-left: 30px;
+                width: 240px;
+                margin-bottom: 13px;
+            }
+            .block-desc {
+                padding-left: 30px;font-size: 16px;
+                line-height: 20px;
+                color: #949494;
+                width: 280px;
+                margin-bottom: 37px;
+            }
+            .block-link {
+                padding-left: 30px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                &::before{
+                    content: '';
+                    background-image: url(../../../img/img-blog-page-6/pet-paw.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 25px;
+                    height: 21px;
+                    display: inline-block;
+                    margin-bottom: -4px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .blog-section__link{
+        width: 200px;
+        background-color: #333333;
+        color: #fff;
+        padding: 16px 40px;
+        text-align: center;
+        padding-left: 55px;
+        position: relative;
+        border-radius: 3px;display: block;
+        margin: 0 auto;
+        text-align: center;
+        .block-section__link-img{
+            margin-right: 5px;
+            position: absolute;
+            top: 20px;
+            left: 30px;
+        }
+    }
+}
