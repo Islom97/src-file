@@ -1,0 +1,126 @@
+.osmotr{
+   display: flex;
+   justify-content: space-between;
+   .osmotr__write{
+      width: 640px;
+      margin-left: 200px;
+      
+      .osmotr__title{
+         font-size: 70px;
+         line-height: 64px;
+         margin-bottom: 28px;
+         color: #333;
+         .color{
+            color: #FFBD54;
+         }
+      }
+      .osmotr__text{
+         font-size: 16px;
+         line-height: 20px;
+         color: #949494;
+         margin: 22px 0;
+      }
+      .link{
+         
+         .link__maney{
+            position: relative;
+            padding: 15px 36px 15px 63px;
+            background-color: #FFBD54;
+            border-radius: 3px;
+            line-height: 21px;
+            margin-right: 21px;
+            color: #fff;
+            transition: background-color .4s ease-in, color .4s ease-in;
+            
+            &:hover{
+               background-color: #333;
+               color: #FFBD54;
+            }
+            
+            &::before{
+               content: '';
+               position: absolute;
+               background-image: url(../../../img/services-open/maney.svg);
+               background-repeat: no-repeat;
+               width: 21px;
+               height: 21px;
+               left: 35px;
+            }
+         }
+         .link__zadaca{
+            position: relative;
+            padding: 15px 36px 15px 63px;
+            background-color: #333;
+            border-radius: 3px;
+            line-height: 21px;
+            margin-right: 21px;
+            color: #fff;
+            transition: background-color .4s ease-in, color .4s ease-in;
+            
+            &:hover{
+               background-color: #FFBD54;
+            }
+            
+            &::before{
+               content: '';
+               position: absolute;
+               background-image: url(../../../img/services-open/proiyom.svg);
+               background-repeat: no-repeat;
+               width: 21px;
+               height: 21px;
+               left: 35px;
+            }
+         }
+         
+      }
+   }
+   
+   .aside{
+      
+      .aside__list{
+         
+         .aside__item{
+            width: 305px;
+            margin-bottom: 15px;
+            border: 1px solid #E4E4E2;
+            border-radius: 5px;
+
+            img{
+               border-radius: 5px 5px 0 0 ;
+            }
+            
+            .aside__title{
+               font-size: 22px;
+               line-height: 25px;
+               width: 182px;
+               margin-top: 40px;
+               margin-bottom: 13px;
+               margin-left: 30px;
+            }
+            .aside__text{
+               margin-left: 30px;
+               margin-bottom: 28px;
+               width: 244px;
+               color:#949494;
+            }
+            .aside__link{
+               position: relative;
+               color: #333;
+               margin-left: 30px;
+               margin-bottom: 28px;
+               padding: 28px;
+
+               &::before{
+                  content: '';
+                  position: absolute;
+                  left: 0;
+                  width: 23px;
+                  height: 23px;
+                  background-image: url(../../../img/head-footer/pet.svg);
+                  background-size: contain;
+               }
+            }
+         }
+      }
+   }
+}

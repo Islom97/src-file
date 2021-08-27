@@ -1,11 +1,15 @@
+main{
+   background-color: #F9F9F9;
+   background-image: url(../../../img/img-blog-page-6/bg.svg);
+}
 .header__bg img{
    object-fit: cover;
 }
 
 .header__bg{
-   
    .header__map--links{
       margin: 33px 0;
+      margin-left: 200px;
       
       .links{
          position: relative;

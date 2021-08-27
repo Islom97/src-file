@@ -95,6 +95,8 @@ header{.header__top{
          justify-content: space-between;
          .bottom__logo{
             margin-top: -18px;
+            position: relative;
+            z-index: 20;
          }
          .bottom__navbar{
             margin-top: -15px;

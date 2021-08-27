@@ -10,7 +10,9 @@ BASIC PAGE
    box-sizing: border-box;
    content: '';
 }
-
+html{
+   scroll-behavior: smooth;
+}
 body{
    font-family: 'Futura PT', sans-serif;
    background-color: #fff;

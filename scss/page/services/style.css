@@ -9,10 +9,6 @@ body {
     background-color: #F9F9F9;
 }
 
-.container {
-    width: 1440px;
-    margin: 0 auto;
-}
 
 .services-card {
     height: 440px;
@@ -28,6 +24,7 @@ body {
 }
 
 .services-title {
+    width: 229px;
     margin-left: 53px;
     font-style: normal;
     font-weight: 600;
@@ -38,6 +35,7 @@ body {
 }
 
 .services-text {
+    width: 229px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -48,8 +46,9 @@ body {
 }
 
 .services-btn {
-    font-style: normal;
-    font-weight: 450;
+    position: absolute;
+    bottom: 45px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
@@ -175,8 +174,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     margin-left: 179px;
-    display: flex;
-    align-items: center;
+    width: 447px;
     color: #949494;
     margin-bottom: 140px;
     margin-top: 30px;
