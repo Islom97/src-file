@@ -116,8 +116,10 @@ main{
                     
                 }
                 &:hover{
-                    
-box-shadow: -2px -6px 16px 7px rgba(0,0,0,0.2);
+             opacity: .8;
+                }
+                &:active{
+                    opacity: .5;
                 }
                 .servis__tite{
                     

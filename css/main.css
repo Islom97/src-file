@@ -18,6 +18,7 @@ body {
   font-family: 'Futura PT';
   background-color: #fff;
   font-size: 16px;
+  background-image: url(/img/intro-img/bg1.svg);
 }
 
 ul {
@@ -386,8 +387,11 @@ main .servis .servis__menu .servis__item::before {
 }
 
 main .servis .servis__menu .servis__item:hover {
-  -webkit-box-shadow: -2px -6px 16px 7px rgba(0, 0, 0, 0.2);
-          box-shadow: -2px -6px 16px 7px rgba(0, 0, 0, 0.2);
+  opacity: .8;
+}
+
+main .servis .servis__menu .servis__item:active {
+  opacity: .5;
 }
 
 main .servis .servis__menu .servis__item .servis__tite {
@@ -786,6 +790,121 @@ main .form__wrapper .container .form button {
   height: 50px;
   width: 226px;
   color: #ffffff;
+}
+
+.contact {
+  height: 600px;
+  background-image: url(/img/intro-img/big-dog.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.contact .contact__title {
+  font-family: Futura PT;
+  font-size: 70px;
+  padding: 110px 0 20px 170px;
+}
+
+.contact .text {
+  width: 650px;
+  padding-left: 170px;
+  font-family: Futura PT;
+  line-height: 20px;
+}
+
+.contact .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+  padding-left: 160px;
+}
+
+.contact .lists .list {
+  background-image: url(/img/intro-img/location.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-right: 80px;
+  width: 155px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  font-family: Futura PT;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.contact .lists .list:nth-child(2) {
+  background-image: url(/img/intro-img/calendar.svg);
+}
+
+.contact .lists .list:nth-child(3) {
+  background-image: url(/img/intro-img/phones.svg);
+  padding: 0;
+}
+
+.find {
+  position: relative;
+  padding-top: 400px;
+  height: 900px;
+  background-image: url(/img/intro-img/paw.svg);
+  background-position: right 50px;
+  background-repeat: no-repeat;
+}
+
+.find::before {
+  background-image: url(/img/intro-img/lupa.svg);
+  width: 430px;
+  height: 350px;
+  background-size: cover;
+  margin-top: 96px;
+  margin-left: 20px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.find .find__title {
+  margin: 0 auto;
+  position: relative;
+  font-family: Futura PT;
+  width: 400px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-top: -100px;
+  padding-bottom: 38px;
+}
+
+.find .find__title::before {
+  background-image: url(/img/intro-img/lupa.svg);
+  width: 120px;
+  height: 120px;
+  top: -150px;
+  right: 100px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.find::before {
+  background-image: url(/img/intro-img/pidbul.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.find .wrapper__map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 footer {
